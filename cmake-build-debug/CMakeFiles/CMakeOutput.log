@@ -1,0 +1,172 @@
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/3.23.0/CompilerIdC/CMakeCCompilerId.o"
+
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/3.23.0/CompilerIdC/CMakeCCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496]
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ce134/fast && C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ce134.dir\build.make CMakeFiles/cmTC_ce134.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce134.dir/CMakeCCompilerABI.c.obj
+D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj -c D:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-5-build/src/gcc/configure --build=i686-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/home/build/work/GCC-5-build/install-mingw --libexecdir=/home/build/work/GCC-5-build/install-mingw/lib --infodir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-5-build/install-mingw/arm-none-eabi --with-libiconv-prefix=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-gmp=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-mpfr=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-mpc=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-isl=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-cloog=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-libelf=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,armv7-r,armv8-m.base,armv8-m.main
+Thread model: single
+gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c'
+ d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/cc1.exe -quiet -v -iprefix d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/ -isysroot d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi -D__USES_INITFINI__ D:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\80080698\AppData\Local\Temp\cc0SHTVR.s
+GNU C11 (GNU Tools for ARM Embedded Processors) version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/include"
+ignoring nonexistent directory "d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi/home/build/work/GCC-5-build/install-mingw/lib/gcc/arm-none-eabi/5.4.1/../../../../include"
+ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/include-fixed"
+ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include
+ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed
+ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C11 (GNU Tools for ARM Embedded Processors) version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 90e6f7c00b6f60eea64d0b91c3395303
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c'
+ d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj C:\Users\80080698\AppData\Local\Temp\cc0SHTVR.s
+GNU assembler version 2.26.2 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.26.2.20160923
+COMPILER_PATH=d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/;d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/;d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/;d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/;d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/;d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c'
+Linking C static library libcmTC_ce134.a
+D:\cmake\bin\cmake.exe -P CMakeFiles\cmTC_ce134.dir\cmake_clean_target.cmake
+D:\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ce134.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_ce134.a CMakeFiles/cmTC_ce134.dir/CMakeCCompilerABI.c.obj
+D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-ranlib.exe libcmTC_ce134.a
+mingw32-make.exe[1]: Leaving directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/include]
+    add: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed]
+    add: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/include] ==> [D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/arm-none-eabi/5.4.1/include]
+  collapse include dir [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed] ==> [D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/arm-none-eabi/5.4.1/include-fixed]
+  collapse include dir [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include] ==> [D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/arm-none-eabi/include]
+  implicit include dirs: [D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/arm-none-eabi/5.4.1/include;D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/arm-none-eabi/5.4.1/include-fixed;D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ce134/fast && C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ce134.dir\build.make CMakeFiles/cmTC_ce134.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ce134.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj -c D:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /home/build/work/GCC-5-build/src/gcc/configure --build=i686-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/home/build/work/GCC-5-build/install-mingw --libexecdir=/home/build/work/GCC-5-build/install-mingw/lib --infodir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-5-build/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-5-build/install-mingw/arm-none-eabi --with-libiconv-prefix=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-gmp=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-mpfr=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-mpc=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-isl=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-cloog=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-libelf=/home/build/work/GCC-5-build/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,armv7-r,armv8-m.base,armv8-m.main]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/cc1.exe -quiet -v -iprefix d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/ -isysroot d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi -D__USES_INITFINI__ D:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\80080698\AppData\Local\Temp\cc0SHTVR.s]
+  ignore line: [GNU C11 (GNU Tools for ARM Embedded Processors) version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi/home/build/work/GCC-5-build/install-mingw/lib/gcc/arm-none-eabi/5.4.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/lib/gcc/../../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include]
+  ignore line: [ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed]
+  ignore line: [ d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GNU Tools for ARM Embedded Processors) version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.7.4  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 90e6f7c00b6f60eea64d0b91c3395303]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj C:\Users\80080698\AppData\Local\Temp\cc0SHTVR.s]
+  ignore line: [GNU assembler version 2.26.2 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.26.2.20160923]
+  ignore line: [COMPILER_PATH=d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/]
+  ignore line: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/]
+  ignore line: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/]
+  ignore line: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/]
+  ignore line: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_ce134.dir\CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C static library libcmTC_ce134.a]
+  ignore line: [D:\cmake\bin\cmake.exe -P CMakeFiles\cmTC_ce134.dir\cmake_clean_target.cmake]
+  ignore line: [D:\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ce134.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_ce134.a CMakeFiles/cmTC_ce134.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-ranlib.exe libcmTC_ce134.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e7ee5/fast && C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e7ee5.dir\build.make CMakeFiles/cmTC_e7ee5.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7ee5.dir/CMakeCXXCompilerABI.cpp.obj
+D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-g++.exe    -o CMakeFiles\cmTC_e7ee5.dir\CMakeCXXCompilerABI.cpp.obj -c D:\cmake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp
+Linking CXX static library libcmTC_e7ee5.a
+D:\cmake\bin\cmake.exe -P CMakeFiles\cmTC_e7ee5.dir\cmake_clean_target.cmake
+D:\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e7ee5.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_e7ee5.a CMakeFiles/cmTC_e7ee5.dir/CMakeCXXCompilerABI.cpp.obj
+D:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\arm-none-eabi-ranlib.exe libcmTC_e7ee5.a
+mingw32-make.exe[1]: Leaving directory 'F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,3 @@
+F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/gd32_cube.elf.dir
+F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/CMakeFiles/rebuild_cache.dir

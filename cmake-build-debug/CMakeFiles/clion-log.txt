@@ -1,0 +1,19 @@
+D:\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/FirmwareEnvironment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/FirmwareEnvironment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\desktop111\Work_Project\new_work_project\pm66\gd32_ncs8803\gd32
+-- The C compiler identification is GNU 5.4.1
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/gcc/gcc-arm-none-eabi-5_4-2016q3-20160926-win32/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gd32_cube"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gd32_cube.elf">
+				<Option output="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/gd32_cube.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGD32F30X_HD"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_log"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_ncs8803"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_gd25qxx"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 gd32_cube.elf"/>
+					<CompileFile command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gd32_cube.elf/fast">
+				<Option output="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/gd32_cube.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGD32F30X_HD"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_log"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_ncs8803"/>
+					<Add directory="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_gd25qxx"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="d:\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 gd32_cube.elf/fast"/>
+					<CompileFile command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/FirmwareEnvironment/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Inc/gd32f30x_it.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Inc/gd32f30x_libopt.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Src/gd32f30x_it.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Core/Src/main.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/core_cm4.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/core_cm4_simd.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/core_cmFunc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/core_cmInstr.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/gd32f30x.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/system_gd32f30x.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/CMSIS/system_gd32f30x.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_adc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_bkp.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_can.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_crc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_ctc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_dac.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_dbg.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_dma.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_enet.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_exmc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_exti.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_fmc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_fwdgt.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_gpio.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_i2c.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_misc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_pmu.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_rcu.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_rtc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_sdio.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_spi.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_timer.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_usart.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Inc/gd32f30x_wwdgt.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_adc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_bkp.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_can.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_crc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_ctc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_dac.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_dbg.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_dma.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_enet.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_exmc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_exti.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_fmc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_fwdgt.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_gpio.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_i2c.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_misc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_pmu.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_rcu.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_rtc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_sdio.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_spi.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_timer.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_usart.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/Drivers/STM32F1xx_HAL_Driver/Src/gd32f30x_wwdgt.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_gd25qxx/drv_gd25qxx.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_gd25qxx/drv_gd25qxx.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_log/drv_log.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_log/drv_log.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_log/drv_log_cfg.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_ncs8803/drv_ncs8803.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/drv/drv_ncs8803/drv_ncs8803.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/gd32f303VC_flash.ld">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/adc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/gd25qxx.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_adc.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_dac.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_delay.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_gpio.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_soft_i2c.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_spi.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Inc/hal_uart.h">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/adc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_adc.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_dac.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_delay.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_gpio.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_spi.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/gd32f303cx_uart.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/hal/Src/hal_soft_i2c.c">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/startup/startup_gd32f30x_hd.s">
+			<Option target="gd32_cube.elf"/>
+		</Unit>
+		<Unit filename="F:/desktop111/Work_Project/new_work_project/pm66/gd32_ncs8803/gd32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
